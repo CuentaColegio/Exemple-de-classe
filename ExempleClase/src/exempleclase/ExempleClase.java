@@ -27,11 +27,15 @@ public class ExempleClase {
         Scanner scn = new Scanner(System.in);
         
         Sumador sumando = new Sumador();
+        // introduzco numeros.
         System.out.println("Introduce dos numeros:");
         n1 = scn.nextDouble();
         n2 = scn.nextDouble();
+        
+        // Los sumo.
         resultado = sumando.Sumar(n1, n2);
         
+        // Los imprimo.
         sumando.ImprimirResultado();
     }
     
