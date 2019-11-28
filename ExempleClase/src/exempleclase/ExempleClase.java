@@ -15,7 +15,8 @@ public class ExempleClase {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Hacking code here    
+        // Hacking code here
+        System.out.println("HolaPuta");
     }
     
 }
