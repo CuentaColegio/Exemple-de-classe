@@ -16,7 +16,8 @@ public class ExempleClase {
      */
     public static void main(String[] args) {
         // Hacking code here
-        System.out.println("HolaPuta");
+        System.out.println("Hola Puta");
+        System.out.println("JAJAJAJJAJAJ");
     }
     
 }
