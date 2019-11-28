@@ -5,6 +5,8 @@
  */
 package exempleclase;
 
+import java.util.Scanner;
+
 /**
  *
  * @author robij
@@ -18,6 +20,19 @@ public class ExempleClase {
         // Hacking code here
         System.out.println("Hola Puta");
         System.out.println("JAJAJAJJAJAJ");
+        double n1 = 0;
+        double n2 = 0;
+        double resultado = 0;
+        
+        Scanner scn = new Scanner(System.in);
+        
+        Sumador sumando = new Sumador();
+        System.out.println("Introduce dos numeros:");
+        n1 = scn.nextDouble();
+        n2 = scn.nextDouble();
+        resultado = sumando.Sumar(n1, n2);
+        
+        sumando.ImprimirResultado();
     }
     
 }
