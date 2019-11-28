@@ -17,12 +17,13 @@ public class ExempleClase {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Hacking code here
-        System.out.println("Hola Puta");
-        System.out.println("JAJAJAJJAJAJ");
+       //Declaración de las variables
         double n1 = 0;
         double n2 = 0;
         double resultado = 0;
+        int nu1 = 0;
+        int nu2 = 0;
+        int resultadoDiv = 0;
         
         Scanner scn = new Scanner(System.in);
         
@@ -37,6 +38,28 @@ public class ExempleClase {
         
         // Los imprimo.
         sumando.ImprimirResultado();
-    }
     
+    
+        
+        
+        Scanner sc = new Scanner(System.in);
+        
+        Dividiendo div = new Dividiendo();
+        
+    // Pido números al usuario y los guardo en las variables
+        
+        System.out.println("Introduce dos numeros para dividir!!");        
+        System.out.println("Introduce el primer número:");
+        nu1 = sc.nextInt();       
+        System.out.println("Introduce el segundo número:");
+        nu2 = sc.nextInt();
+        
+        // Los divido 
+        
+        resultadoDiv = div.Dividir(nu1, nu2);
+        
+        // Imprimo el resultado de la divison
+       
+        div.VerResultado();
+}
 }
